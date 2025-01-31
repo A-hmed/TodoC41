@@ -1,7 +1,34 @@
 <resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.TodoC41" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="windowSplashScreenBackground">@color/secondary</item>
+        <!-- Splash screen icon -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/app_logo</item>
+        <!-- Duration for fade-out animation -->
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <!--        <item name="android:windowSplashScreenAnimatedIcon">@drawable/app_logo</item>-->
     </style>
+
+    <style name="Theme.TodoC41" parent="Base.Theme.TodoC41" />
+
+    <style name="white22Bold">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primary18Bold">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="green18Bold">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
